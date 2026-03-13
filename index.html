@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Hồ sơ cá nhân - Nguyễn Ngọc Xuân</title>
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f5f7fb;
+color:#222;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+header h1{
+font-size:48px;
+margin:0;
+}
+
+header p{
+font-size:20px;
+}
+
+nav{
+background:#111;
+padding:15px;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+font-size:18px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#00e0ff;
+}
+
+section{
+padding:60px 10%;
+}
+
+h2{
+font-size:36px;
+border-left:6px solid #0099ff;
+padding-left:15px;
+margin-bottom:30px;
+}
+
+p{
+font-size:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+font-size:18px;
+}
+
+.skills li{
+font-size:20px;
+margin-bottom:12px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:30px;
+font-size:18px;
+}
+
+.profile{
+display:flex;
+gap:40px;
+flex-wrap:wrap;
+align-items:center;
+}
+
+.profile img{
+width:260px;
+border-radius:15px;
+}
+
+.button{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#0099ff;
+color:white;
+font-size:18px;
+text-decoration:none;
+border-radius:6px;
+}
+
+.button:hover{
+background:#0077cc;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Nguyễn Ngọc Xuân</h1>
+
+<p>Học sinh lớp 11B4 - THPT Tôn Đức Thắng</p>
+
+<p>Đam mê Kinh doanh • Sáng tạo nội dung • Công nghệ</p>
+
+</header>
+
+<nav>
+
+<a href="#about">Giới thiệu</a>
+
+<a href="#skills">Năng lực</a>
+
+<a href="#projects">Dự án</a>
+
+<a href="#gallery">Hình ảnh</a>
+
+<a href="#contact">Liên hệ</a>
+
+</nav>
+
+<section id="about">
+
+<h2>Giới thiệu bản thân</h2>
+
+<div class="profile">
+
+<img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12">
+
+<div>
+
+<p>
+Em tên là <b>Nguyễn Ngọc Xuân</b>, hiện là học sinh lớp
+<b>11B4 tại trường THPT Tôn Đức Thắng</b> thuộc thị xã
+<b>Ninh Hòa – Khánh Hòa</b>.
+</p>
+
+<p>
+Là một học sinh thuộc thế hệ Gen Z, em luôn quan tâm
+đến sự phát triển của xã hội, đặc biệt là lĩnh vực
+<b>kinh doanh, thương mại và công nghệ</b>.
+</p>
+
+<p>
+Em tin rằng kinh doanh không chỉ là việc buôn bán,
+mà còn là nghệ thuật thấu hiểu nhu cầu của khách hàng,
+từ đó tạo ra giá trị và đóng góp cho cộng đồng.
+</p>
+
+<a href="#skills" class="button">Xem năng lực</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>Năng lực và kỹ năng</h2>
+
+<ul class="skills">
+
+<li><b>Tư duy logic và phân tích:</b> khả năng xử lý thông tin và lập luận tốt nhờ các môn học Toán, Văn và Hóa.</li>
+
+<li><b>Kỹ năng công nghệ:</b> sử dụng thành thạo các công cụ tin học văn phòng để tạo báo cáo, trình bày dữ liệu.</li>
+
+<li><b>Sáng tạo nội dung:</b> chỉnh sửa hình ảnh và thiết kế nội dung truyền thông.</li>
+
+<li><b>Làm việc nhóm:</b> hợp tác tốt trong các hoạt động học tập và dự án nhóm.</li>
+
+<li><b>Thích ứng nhanh:</b> sẵn sàng học hỏi và tìm giải pháp khi gặp khó khăn.</li>
+
+</ul>
+
+</section>
+
+<section id="projects">
+
+<h2>Các dự án đã thực hiện</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+
+<div class="card-content">
+
+<b>Dự án Sống Xanh</b>
+
+<p>
+Nghiên cứu về tiêu dùng bền vững và đề xuất giải pháp
+bảo vệ môi trường trong sinh hoạt hằng ngày.
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1543286386-713bdd548da4">
+
+<div class="card-content">
+
+<b>Infographic Lịch sử</b>
+
+<p>
+Thiết kế các infographic giúp trình bày kiến thức
+lịch sử một cách trực quan và dễ hiểu hơn.
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+
+<div class="card-content">
+
+<b>Hoạt động cộng đồng</b>
+
+<p>
+Tham gia hỗ trợ người dân sử dụng các ứng dụng
+số và nâng cao nhận thức về an toàn internet.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Bộ sưu tập hình ảnh</h2>
+
+<div class="grid">
+
+<img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+<img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5">
+<img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f">
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Thông tin liên hệ</h2>
+
+<p><b>Họ và tên:</b> Nguyễn Ngọc Xuân</p>
+
+<p><b>Trường:</b> THPT Tôn Đức Thắng</p>
+
+<p><b>Địa chỉ:</b> Ninh Hưng – Ninh Hòa – Khánh Hòa</p>
+
+<p><b>Email:</b> ngocxuan@gmail.com</p>
+
+<a class="button" href="#about">Quay lại đầu trang</a>
+
+</section>
+
+<footer>
+
+© 2026 Portfolio cá nhân - Nguyễn Ngọc Xuân
+
+</footer>
+
+</body>
+</html>
